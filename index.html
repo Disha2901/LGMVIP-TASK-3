@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <script src="script3.js" defer> </script>
+    <title>Student Registration System</title>
+</head>
+<body background="C:\Users\WIN10\Desktop\registration form\regist2.jpg">
+
+    <h1 style="color: rgb(87, 92, 97);">STUDENT REGISTRATION FORM</h1>
+
+   
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">Student Name</label>
+                            <input type="text" placeholder="Enter Student Name" name="studentName" id="studentName">
+                        </div>
+                        <div>
+                            <label for="collegeName">College Name</label>
+                            <input placeholder="Enter College Name" type="text" name="collegeName" id="collegeName">
+                        </div>
+                        <div>
+                            <label for="Branch">Branch</label>
+                            
+                            
+                            <input placeholder="Enter Branch Name" type="text" name="Branch" id="Branch">
+                        </div>
+                        <div>
+                            <label for="Course">Enter Course</label>
+                            <br>
+                            <input placeholder="Enter Course" type="text" name="Course" id="Course">
+                            </div>
+                        <div>
+                            <label for="Mob">Mobile number</label>
+                            <input placeholder="Enter Mobile Number" type="text" name="Mob" id="Mob">
+                        </div>
+                        <div>
+                            <label for="Age">Age</label>
+                            <input placeholder="Enter Your Age" type="text" name="Age" id="Age">
+                        </div>
+                        </div>
+                      
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>College Name</th>
+                                <th>Branch</th>
+                                <th>Course</th>
+                                <th>Mobile number</th>
+                                <th>Age</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
